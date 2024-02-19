@@ -610,7 +610,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background-color: #f3f8fa;
+  background-color: black;
   min-height: 40px;
 }
 
@@ -665,10 +665,9 @@ section {
   overflow: hidden;
   margin: 0 0 40px 0;
   background: #fff;
-  box-shadow: 0 5px 26px 0 rgba(68, 88, 144, 0.14);
+  box-shadow: 0 5px 26px 0 rgba(246, 247, 248, 0.14);
   transition: all 0.3s ease-in-out;
   text-align: center;
-  border: 1px solid #fff;
 }
 
 .services .icon {
@@ -700,8 +699,8 @@ section {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+  color: #111;
 }
-
 .services .icon-box-pink .icon {
   background: #fceef3;
 }
@@ -957,7 +956,7 @@ section {
 .about ul i {
   font-size: 20px;
   padding-right: 4px;
-  color: #68A4C4;
+  color: #0766ad;
 }
 
 .about p:last-child {
@@ -970,15 +969,18 @@ section {
 .facts .counters span {
   font-size: 48px;
   display: block;
-  color: #68A4C4;
+  color: #0766ad;
 }
 
 .facts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #111;
 }
+
 
 /*--------------------------------------------------------------
 # Our Skills
@@ -1305,7 +1307,7 @@ section {
   font-size: 16px;
   font-weight: 500;
   line-height: 20px;
-  color: #444;
+  color: #fff;
   transition: all 0.3s ease-in-out;
   border-bottom: 2px solid #fff;
   font-family: "Roboto", sans-serif;
@@ -1435,7 +1437,7 @@ section {
 # Team
 --------------------------------------------------------------*/
 .team {
-  background: #fff;
+  background: black;
   padding-bottom: 30px;
 }
 
@@ -1526,15 +1528,16 @@ section {
 
 .contact .info-box {
   color: #444;
+  background-color: #fff;
   text-align: center;
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  /* box-shadow: 0 0 30px rgba(214, 215, 216, 0.6); */
   padding: 20px 0 30px 0;
   margin-bottom: 30px;
 }
 
 .contact .info-box i {
   font-size: 32px;
-  color: #68A4C4;
+  color: #0766ad;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #a2cce3;
@@ -1542,7 +1545,7 @@ section {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #666;
+  color: black;
   font-weight: 700;
   margin: 10px 0;
 }
@@ -1555,7 +1558,8 @@ section {
 }
 
 .contact .php-email-form {
-  box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
+  background-color: #fff;
+  /* box-shadow: 0 0 30px rgba(214, 215, 216, 0.6); */
   padding: 30px;
   margin-bottom: 30px;
 }
@@ -1622,7 +1626,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #68A4C4;
+  background: #0766ad;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1666,7 +1670,7 @@ section {
 .blog .entry {
   padding: 30px;
   margin-bottom: 60px;
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 16px rgba(255, 255, 255, 0.1);
 }
 
 .blog .entry .entry-img {
@@ -1683,17 +1687,17 @@ section {
 }
 
 .blog .entry .entry-title a {
-  color: #1e4356;
+  color: #ffffff;
   transition: 0.3s;
 }
 
 .blog .entry .entry-title a:hover {
-  color: #68A4C4;
+  color: #0766ad;
 }
 
 .blog .entry .entry-meta {
   margin-bottom: 15px;
-  color: #72afce;
+  color: #0766ad;
 }
 
 .blog .entry .entry-meta ul {
@@ -1733,7 +1737,7 @@ section {
 
 .blog .entry .entry-content .read-more a {
   display: inline-block;
-  background: #68A4C4;
+  background: #0766ad;
   color: #fff;
   padding: 6px 20px;
   transition: 0.3s;
@@ -1791,7 +1795,7 @@ section {
 }
 
 .blog .entry .entry-footer a {
-  color: #255269;
+  color: #0766ad;
   transition: 0.3s;
 }
 
@@ -1823,7 +1827,7 @@ section {
 
 .blog .entry .entry-footer .tags li+li::before {
   padding-right: 6px;
-  color: #6c757d;
+  color: #0766ad;
   content: ",";
 }
 
@@ -1973,7 +1977,7 @@ section {
   border-radius: 4px;
   padding: 10px 20px;
   border: 0;
-  background-color: #1e4356;
+  background-color: #0766ad;
 }
 
 .blog .blog-comments .reply-form .btn-primary:hover {
@@ -2025,7 +2029,7 @@ section {
   font-weight: 700;
   padding: 0 0 0 0;
   margin: 0 0 15px 0;
-  color: #1e4356;
+  color: #fff;
   position: relative;
 }
 
@@ -2057,7 +2061,7 @@ section {
   font-size: 16px;
   padding: 0 15px;
   margin: -1px;
-  background: #68A4C4;
+  background: #0766ad;
   color: #fff;
   transition: 0.3s;
   border-radius: 0 4px 4px 0;
@@ -2082,7 +2086,7 @@ section {
 }
 
 .blog .sidebar .categories ul a {
-  color: #1e4356;
+  color: #0766ad;
   transition: 0.3s;
 }
 
@@ -2112,7 +2116,7 @@ section {
 }
 
 .blog .sidebar .recent-posts h4 a {
-  color: #1e4356;
+  color: #0766ad;
   transition: 0.3s;
 }
 
@@ -2142,7 +2146,7 @@ section {
 }
 
 .blog .sidebar .tags ul a {
-  color: #3f8db5;
+  color: #0766ad;
   font-size: 14px;
   padding: 6px 14px;
   margin: 0 6px 8px 0;
@@ -2175,7 +2179,7 @@ section {
 
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #0766ad;
+  background: #fff;
 }
 
 #footer .footer-newsletter h4 {
@@ -2184,7 +2188,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #a2cce3;
+  color: #fff;
 }
 
 #footer .footer-newsletter form {
@@ -2211,7 +2215,7 @@ section {
   font-size: 16px;
   padding: 0 20px;
   margin: 3px;
-  background: #68A4C4;
+  background: #fff;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
